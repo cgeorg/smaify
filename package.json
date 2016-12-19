@@ -1,0 +1,23 @@
+{
+  "name": "smaify",
+  "version": "0.0.1",
+  "description": "Smaify your life",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cgeorg/smaify"
+  },
+  "author": "Chris Marasti-Georg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgeorg/smaify/issues"
+  },
+  "homepage": "https://github.com/cgeorg/smaify",
+  "devDependencies": {
+    "require-directory": "^2.1.0",
+    "tape": "^4.0.0",
+    "tape-catch": "^1.0.4"
+  }
+}
