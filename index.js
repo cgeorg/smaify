@@ -11,7 +11,7 @@ function smaify(str) {
             [/(^|[^m])am([^a])/gi, '$1sma$2'],
             [/\bA([^ ]{3})/g, 'Sma$1'],
             [/\ba([^ ]{3})/g, 'sma$1'],
-            [/([^sS])m[aeiou]/gi, '$1sma'],
+            [/([^sS])m[aiou]/gi, '$1sma'],
             [/\b[BCDFGHJKLMNPQRSTVWXYZ]a/g, 'Sma'],
             [/\b[bcdfghjklmnpqrstvwxyz]a/gi, 'sma'],
             [/SM[EIOU]/g, 'SMA'],
