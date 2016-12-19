@@ -1,6 +1,6 @@
 {
   "name": "smaify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Smaify your life",
   "scripts": {
     "test": "node test"
